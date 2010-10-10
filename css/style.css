@@ -1,0 +1,53 @@
+body {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+}
+
+
+#wrapper {
+  width: 930px;
+  margin: 0 auto;
+}
+#header {
+  margin-bottom: 50px;
+}
+
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+input, textarea {width: 100%;}
+
+input[type="submit"] {
+  display: block;
+  float: right;
+  margin-top: 10px;
+  width: 80px;
+}
+
+#form, #console, #reciever {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 50px;
+}
+
+#form {float: left;}
+#console, #reciever {
+  float: right;
+}
+.response {
+  font-family: monaco, monospace;
+  font-size: 12px;
+  background: #f1f1f1;
+  padding: 5px;
+}
+
