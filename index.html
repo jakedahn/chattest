@@ -10,13 +10,17 @@
     
     <script type="text/javascript" charset="utf-8">
       $(function(){
-      //   var opt = {
-      //     success: function(res) {
-      //       console.log(res);
-      //     }
-      //   }
-      //   $("form").ajaxForm(opt)
-      // })
+        
+        // form ajax send, on response replace console text
+        var opt = {
+          success: function(res) {
+            $("#console .response").text(res);
+          }
+        }
+        $("form").ajaxForm(opt)
+        
+        
+      })
     </script>
   </head>
   <body>
@@ -26,7 +30,7 @@
       </div>
       
       <div id="form">
-        <form action="http://www.postbin.org/mlqbms" method="post" accept-charset="utf-8">
+        <form action="http://looce.com/echo.php" method="post" accept-charset="utf-8">
           <fieldset>
             <label for="to">To</label><input type="text" name="to" value="recieveuser" id="to" />
             <label for="from">From</label><input type="text" name="from" value="senduser" id="from" />
