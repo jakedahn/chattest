@@ -3,9 +3,21 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Chat Test</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
     
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.form.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+      //   var opt = {
+      //     success: function(res) {
+      //       console.log(res);
+      //     }
+      //   }
+      //   $("form").ajaxForm(opt)
+      // })
+    </script>
   </head>
   <body>
     <div id="wrapper">
@@ -14,7 +26,7 @@
       </div>
       
       <div id="form">
-        <form action="#" method="post" accept-charset="utf-8">
+        <form action="http://www.postbin.org/mlqbms" method="post" accept-charset="utf-8">
           <fieldset>
             <label for="to">To</label><input type="text" name="to" value="recieveuser" id="to" />
             <label for="from">From</label><input type="text" name="from" value="senduser" id="from" />
